@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="bson" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAIAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-bson.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bson_reader" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-bson.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="connection" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-mongo.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="response" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAQAAAAQ=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-mongo.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="buffer" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-mongo.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="remote_address" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-remoteobj.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="remote_objects" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-remoteobj.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="block" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-seri.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="write_block" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAACAAAAAgAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-seri.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="read_block" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAgAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-seri.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stat" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAAIABAAAAAAAEAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-skynet.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="buffer_node" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-socket.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="socket_buffer" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-socket.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="trace_info" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAIAIAAAEAAAAAAAAAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\trace_service.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="trace_pool" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\trace_service.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="message" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\databuffer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="databuffer" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\databuffer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="messagepool_list" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\databuffer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="messagepool" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\databuffer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="hashid_node" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\hashid.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="hashid" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\hashid.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="localcast" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQCAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\localcast.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="client" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_client.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gate" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAACAAGAAAABAAAAAQAAAAAIAACAAAIAEA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_gate.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="msg" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_harbor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="msg_queue" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_harbor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="keyvalue" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAABEAAAAAAAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_harbor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="hashmap" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_harbor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="remote_message_header" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_harbor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="harbor" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEABAAABAAAAAAAAAACAAAAAAAAAAYAAAAAIAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_harbor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="snlua" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIAIAAAAAQAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_lua.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="name" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAEAAAAAAAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_master.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="namemap" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_master.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="master" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAAABAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\service-src\service_master.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="args" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\client-src\client.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="rwlock" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\rwlock.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_env" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_env.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="group_node" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_group.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="group" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_group.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="handle_name" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_handle.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="handle_storage" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAABAAAEAQAAAAAAAAACAAAAAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_handle.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="remote_name" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_harbor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="remote_message" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAAACA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_harbor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_config" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAIAAAAEiAAAAAAAAAAAAAAAAQAAAAAAQCAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_imp.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="logger" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIACAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_logger.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="modules" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAABAACAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_module.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_module" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAABAAAAAAAg=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_module.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_monitor" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAABAEAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_monitor.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="message_queue" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAADAAAkAAAAAAAAABAAgAAAAAAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_mq.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="global_queue" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_mq.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_message" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAASAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_mq.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_multicast_message" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAQCAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_multicast.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="array" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_multicast.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_multicast_group" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAQAAAAAAAAAAAAAAAQAAQAAAQAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_multicast.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_context" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQiAAAAAAAgAABAJABAAAAABIAAIAAAACAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_node" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="skynet_socket_message" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAABAAAAAIgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_socket.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="monitor" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEABAAAAAAAEAAAAAAAAgAAAAAAIAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_start.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="worker_parm" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_start.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="timer_event" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_timer.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="timer_node" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_timer.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="link_list" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_timer.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="timer" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAgAAAAgAAAAAAAAAQAAIAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_timer.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="event" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAYAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_poll.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="write_buffer" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABCAAIAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="socket" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAIAACAAAAAABAAAAAAAAAAABAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="socket_server" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAIAAAAAAAAAAAAACAAAARAAAAAAAAAAJCAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="request_open" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAgAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="request_send" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="request_close" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="request_listen" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAgAAAABAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="request_bind" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="request_start" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="request_package" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="socket_message" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAAIgA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_server.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="document" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\lualib-src\lua-mongo.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="skynet_cb" Collapsed="true">
+    <Position X="4" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="skynet_dl_create" Collapsed="true">
+    <Position X="5.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_module.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="skynet_dl_init" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_module.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="skynet_dl_release" Collapsed="true">
+    <Position X="9.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_module.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="skynet_multicast_func" Collapsed="true">
+    <Position X="11" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_multicast.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="timer_execute_func" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\skynet_timer.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="poll_fd" Collapsed="true">
+    <Position X="2.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\MyGitHub\skynet-master\skynet-src\socket_poll.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>
